@@ -1,0 +1,31 @@
+<h3>Cadastro de Veículos</h3>
+
+<form (ngSubmit)="onSubmit()">
+	<div class="form-group">
+		<label>Placa</label>
+		<input type="text" name="placa" [(ngModel)]="veiculo.placa" class="form-control" placeholder="Placa do Veículo">
+	</div>
+	<div class="form-group">
+		<label>Chassi</label>
+		<input type="text" name="chassi" [(ngModel)]="veiculo.chassi" class="form-control" placeholder="Chassi do Veículo">
+	</div>
+	<div class="form-group">
+		<label>Renavam</label>
+		<input type="text" name="renavam" [(ngModel)]="veiculo.renavam" class="form-control" placeholder="Renavam do Veículo">
+	</div>
+	<div class="form-group">
+		<label>Modelo</label>
+		<input type="text" name="modelo" [(ngModel)]="veiculo.modelo" class="form-control" placeholder="Modelo do Veículo">
+	</div>
+	<div class="form-group">
+		<label>Marca</label>
+		<input type="text" name="marca" [(ngModel)]="veiculo.marca" class="form-control" placeholder="Marca do Veículo">
+	</div>
+	<div class="form-group">
+		<label>Ano</label>
+		<input type="text" name="ano" [(ngModel)]="veiculo.ano" class="form-control" placeholder="Ano do Veículo">
+	</div>
+
+	<button class="btn btn-primary">Inserir</button>
+
+</form>
